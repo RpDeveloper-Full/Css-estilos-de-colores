@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demo de estilos por color</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="brand">Mi Sitio</h1>
+      <ul class="nav">
+        <li><a class="link link-primary" href="#">Inicio</a></li>
+        <li><a class="link link-secondary" href="#">Acerca</a></li>
+        <li><a class="link link-info" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero gradient-primary">
+    <div class="container">
+      <h2>Estilos multicolor en CSS</h2>
+      <p>Componentes con variantes: primary, secondary, success, info, warning, danger.</p>
+      <div class="actions">
+        <button class="btn btn-primary">Primario</button>
+        <button class="btn btn-secondary">Secundario</button>
+        <button class="btn btn-success">Éxito</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Advertencia</button>
+        <button class="btn btn-danger">Peligro</button>
+        <button class="btn btn-ghost">Ghost</button>
+        <button class="btn btn-outline">Outline</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container space-y">
+    <section>
+      <h3>Tarjetas</h3>
+      <div class="grid">
+        <article class="card border-primary">
+          <h4 class="card-title text-primary">Card Primario</h4>
+          <p>Ejemplo de tarjeta con borde y título primario.</p>
+          <span class="badge badge-primary">Nuevo</span>
+        </article>
+        <article class="card border-secondary">
+          <h4 class="card-title text-secondary">Card Secundario</h4>
+          <p>Colores alternativos para resaltar secciones.</p>
+          <span class="badge badge-secondary">Beta</span>
+        </article>
+        <article class="card border-success">
+          <h4 class="card-title text-success">Card Éxito</h4>
+          <p>Ideal para estados completados o verificados.</p>
+          <span class="badge badge-success">OK</span>
+        </article>
+        <article class="card border-info">
+          <h4 class="card-title text-info">Card Info</h4>
+          <p>Para información neutral o de sistema.</p>
+          <span class="badge badge-info">Info</span>
+        </article>
+        <article class="card border-warning">
+          <h4 class="card-title text-warning">Card Advertencia</h4>
+          <p>Útil para avisos preventivos.</p>
+          <span class="badge badge-warning">¡Ojo!</span>
+        </article>
+        <article class="card border-danger">
+          <h4 class="card-title text-danger">Card Peligro</h4>
+          <p>Para errores críticos o estados fallidos.</p>
+          <span class="badge badge-danger">Error</span>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h3>Alertas</h3>
+      <div class="alert alert-primary"><strong>Primario:</strong> Un mensaje destacado.</div>
+      <div class="alert alert-secondary"><strong>Secundario:</strong> Nota complementaria.</div>
+      <div class="alert alert-success"><strong>Éxito:</strong> Operación completada.</div>
+      <div class="alert alert-info"><strong>Info:</strong> Información general.</div>
+      <div class="alert alert-warning"><strong>Advertencia:</strong> Revisa este detalle.</div>
+      <div class="alert alert-danger"><strong>Error:</strong> Algo salió mal.</div>
+    </section>
+
+    <section>
+      <h3>Formulario</h3>
+      <form class="form">
+        <label class="label">Nombre
+          <input class="input" type="text" placeholder="Tu nombre" />
+        </label>
+        <label class="label">Correo
+          <input class="input" type="email" placeholder="tucorreo@ejemplo.com" />
+        </label>
+        <label class="label">Color favorito
+          <select class="input">
+            <option>Primario</option>
+            <option>Secundario</option>
+            <option>Éxito</option>
+            <option>Info</option>
+            <option>Advertencia</option>
+            <option>Peligro</option>
+          </select>
+        </label>
+        <div class="actions">
+          <button class="btn btn-success" type="submit">Enviar</button>
+          <button class="btn btn-outline" type="reset">Limpiar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>Hecho con ♥ — Demo de estilos</small>
+    </div>
+  </footer>
+</body>
+</html>
